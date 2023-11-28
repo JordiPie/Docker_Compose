@@ -2,14 +2,14 @@ version: '3'
 services:
 
   backend: 
-    image: jordipie/backend:0.1.2
+    image: jordipie/backend:latest
     restart: always
     ports:
       - "9090:9090"
 
 
   backoffice:
-    image: jordipie/backoffice:0.1.3
+    image: jordipie/backoffice:latest
 
     restart: always
     depends_on:
@@ -18,7 +18,7 @@ services:
       - "8080:80"
 
   frontend:
-    image: jordipie/frontend:0.1.2
+    image: jordipie/frontend:latest
 
     restart: always
     depends_on:
