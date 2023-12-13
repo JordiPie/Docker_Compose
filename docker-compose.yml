@@ -5,7 +5,7 @@ services:
     image: jordipie/backend:0.1.5
     restart: always
     ports:
-      - "9090:9090"
+      - "9191:9191"
 
 
   backoffice:
