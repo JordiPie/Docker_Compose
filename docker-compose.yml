@@ -18,7 +18,7 @@ services:
       - "8080:80"
 
   frontend:
-    image: jordipie/frontend:0.1.6
+    image: jordipie/frontend:0.2.1
 
     restart: always
     depends_on:
