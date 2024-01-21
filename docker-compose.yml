@@ -2,7 +2,7 @@ version: '3'
 services:
 
   backend: 
-    image: jordipie/backend:0.2.1
+    image: jordipie/backend:0.2.2
     restart: always
     ports:
       - "9191:9191"
